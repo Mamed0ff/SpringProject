@@ -1,0 +1,12 @@
+<html lang="en" xmlns:th="https://www.thymeleaf.org/" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="fragments/header::head">
+</head>
+<body>
+<header th:replace="fragments/header::header"></header>
+
+<div layout:fragment="mainContent">
+this part is changeable!!!;
+</div>
+<div th:replace="fragments/footer::footer"></div>
+</body>
+</html>
